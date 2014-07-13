@@ -1,4 +1,4 @@
-//created by Amir Mehrabia mehhossein@gmail.com
+//created by Amir Mehrabian mehhossein@gmail.com
 #ifndef FLAG_REGISTER_H
 #define FLAG_REGISTER_H
 

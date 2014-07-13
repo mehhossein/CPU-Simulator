@@ -1,4 +1,4 @@
-//created by Amir Mehrabia mehhossein@gmail.com
+//created by Amir Mehrabian mehhossein@gmail.com
 #ifndef CPU_H
 #define CPU_H
 
