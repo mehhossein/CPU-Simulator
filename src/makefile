@@ -1,5 +1,4 @@
 all: cpu
-
 cpu: main.o flag.o memory.o decoder.o cpu.o 
 	g++ main.o flag.o memory.o decoder.o cpu.o -o ../bin/cpu
 main.o: main.cpp flag.h cpu.h memory.h
