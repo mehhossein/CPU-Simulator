@@ -1,3 +1,4 @@
+//created by Amir Mehrabia mehhossein@gmail.com
 #ifndef DECODER_H
 #define DECODER_H
 

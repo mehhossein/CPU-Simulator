@@ -1,3 +1,4 @@
+//created by Amir Mehrabia mehhossein@gmail.com
 #include "decoder.h"
 #include "memory.h"
 #include "cpu.h"

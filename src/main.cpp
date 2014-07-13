@@ -1,3 +1,5 @@
+//created by Amir Mehrabia mehhossein@gmail.com
+
 #include<iostream>
 using namespace std ;
 
