@@ -1,3 +1,4 @@
+//created by Amir Mehrabia mehhossein@gmail.com
 #include "cpu.h"
 #include <iostream>
 using namespace std;
