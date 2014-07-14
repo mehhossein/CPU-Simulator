@@ -9,7 +9,7 @@
 
 
 #define _32_BIT
-//#define LITTLE_ENDIAN
+#define LITTLE_ENDIAN_ARCHITECTURE
 
 #ifdef _32_BIT
 	
@@ -139,7 +139,7 @@ private :
 			REGISTER bx;
 		};
 
-#ifdef LITTLE_ENDIAN
+#ifdef LITTLE_ENDIAN_ARCHITECTURE
 
 		struct
 		{

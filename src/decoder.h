@@ -7,7 +7,7 @@
 
 
 #define _32_BIT
-//#define LITTLE_ENDIAN
+#define LITTLE_ENDIAN_ARCHITECTURE
 
 class CPU ;
 
