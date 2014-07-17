@@ -14,13 +14,11 @@ int main()
 
 	mem.prepareSegment( 0 );
 
-	mem.loadToSegment( 0 , 256 , "f:\\n.com" );
-
-	CPU cpu( mem ) ;
-
-	cpu.start();
-
-
-	return 0;
+	if (mem.loadToSegment( 0 , 256 , "f:\\n.com" ))
+		{CPU cpu( mem ) ;
+		cpu.start();
+		return 0;}
+	else
+		return 1;
 
 }

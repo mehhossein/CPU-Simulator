@@ -31,9 +31,9 @@ class CPU
 	friend class Decoder ;
 	friend void add( unsigned char secondNibble , CPU &cpu );
 	friend void adc( unsigned char secondNibble , CPU &cpu );
-//	friend void and( unsigned char secondNibble , CPU &cpu );
-//	friend void xor( unsigned char secondNibble , CPU &cpu );
-//	friend void or( unsigned char secondNibble , CPU &cpu );
+	friend void andd( unsigned char secondNibble , CPU &cpu );
+	friend void xorr( unsigned char secondNibble , CPU &cpu );
+	friend void orr( unsigned char secondNibble , CPU &cpu );
 	friend void sub( unsigned char secondNibble , CPU &cpu );
 	friend void sbb( unsigned char secondNibble , CPU &cpu );
 	friend void cmp( unsigned char secondNibble , CPU &cpu );
@@ -210,9 +210,9 @@ private :
 
 void add( unsigned char secondNibble , CPU &cpu );
 void adc( unsigned char secondNibble , CPU &cpu );
-//	friend void and( unsigned char secondNibble , CPU &cpu );
-//	friend void xor( unsigned char secondNibble , CPU &cpu );
-//	friend void or( unsigned char secondNibble , CPU &cpu );
+void andd( unsigned char secondNibble , CPU &cpu );
+void xorr( unsigned char secondNibble , CPU &cpu );
+void orr( unsigned char secondNibble , CPU &cpu );
 void sub( unsigned char secondNibble , CPU &cpu );
 void sbb( unsigned char secondNibble , CPU &cpu );
 void cmp( unsigned char secondNibble , CPU &cpu );

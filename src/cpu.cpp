@@ -1039,8 +1039,8 @@ void adc( unsigned char secondNibble , CPU &cpu )
 	}
 }
 
-/*
-void and( unsigned char secondNibble , CPU &cpu )
+
+void andd( unsigned char secondNibble , CPU &cpu )
 {
 	unsigned int oprand1 = 0 ;
 	unsigned int oprand2 = 0;
@@ -1392,7 +1392,7 @@ void and( unsigned char secondNibble , CPU &cpu )
 
 
 
-void xor( unsigned char secondNibble , CPU &cpu )
+void xorr( unsigned char secondNibble , CPU &cpu )
 {
 	unsigned int oprand1 = 0 ;
 	unsigned int oprand2 = 0;
@@ -1744,7 +1744,7 @@ void xor( unsigned char secondNibble , CPU &cpu )
 
 
 
-void or( unsigned char secondNibble , CPU &cpu )
+void orr( unsigned char secondNibble , CPU &cpu )
 {
 	unsigned int oprand1 = 0 ;
 	unsigned int oprand2 = 0;
@@ -2094,7 +2094,7 @@ void or( unsigned char secondNibble , CPU &cpu )
 		break;
 	}
 }
-*/
+
 
 void sub( unsigned char secondNibble , CPU &cpu )
 {
